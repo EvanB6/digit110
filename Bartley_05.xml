@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Poem>
+    <Heading>"Ballad of Booker T.," by Langston Hughes, June 1, 1941</Heading>
+    <Title>BALLAD OF BOOKER T.</Title> by <Author>Langston Hughes</Author>
+    <Text><MC>Booker T.</MC>
+        <line>Was a practical man.</line>
+        <line>He said, <Job type="farmer" Real="not sure">Till the soil</Job></line>
+        <line>And learn from the land.</line>
+        <line>Let down your bucket<stamp color="red"/></line>
+        <line>Where you are.<stamp color="red"/></line>
+        <line>Your fate is here<stamp color="red"/></line>
+        <line>And not afar.<stamp color="red"/></line>
+        <line>To help yourself<stamp color="red"/></line>
+        <line>And your fellow man,<stamp color="red"/></line>
+        <line>Train your head,</line>
+        <line>Your heart, <orig type="underlined">and your hand</orig>.</line>
+        <!-- orignal text had the words underlined -->
+        <line>For smartness alone's</line>
+        <line>Surely not meet—</line>
+        <line>If you haven't at the same time</line>
+        <line>Got something to eat.</line>
+        <line>Thus at <City loc="Alabama">Tuskegee</City></line>
+        <line>He built a school</line>
+        <line><teachings type="knowledge">With book-learning there</teachings></line>
+        <line><teachings type="trades">And the workman's tool.</teachings></line>
+        <line>He started out</line>
+        <line>In a simple way—</line>
+        <line>For yesterday</line>
+        <line>Was <orig type="underlined">not</orig><!-- orignal text had the words underlined -->
+            today.</line>
+        <line>Sometimes he had</line>
+        <line>Compromise in his talk—</line>
+        <line>For a man must crawl</line>
+        <line>Before he can walk—</line>
+        <line>And in <state>Alabama</state> in <date time="1985">'85</date></line>
+        <line>A joker was lucky</line>
+        <line>To be alive.</line>
+        <line>But <MC>Booker T.</MC></line>
+        <line>Was nobody's fool:</line>
+        <line>You may carve a dream</line>
+        <line>With an humble tool.</line>
+        <line>The tallest tower</line>
+        <line>Can tumble down</line>
+        <line>If it be not rooted</line>
+        <line>In solid ground.</line>
+        <line>So, being a far-seeing</line>
+        <!-- page 2 -->
+        <line>Education and Outreach Division</line>
+        <line>Practical man,</line>
+        <line>He said, Train your head,</line>
+        <line>Your heart, <orig type="underlined">and your hand</orig>.</line>
+        <!-- orignal text had the words underlined -->
+        <line>Your fate is here</line>
+        <line>And not afar,</line>
+        <line>So let down your bucket</line>
+        <line>Where you are.</line></Text>
+    <endnote>LANGSTON HUGHES Final Draft, Hollow Hills Farm, Monterey, California, June 1,
+        1941</endnote></Poem>
