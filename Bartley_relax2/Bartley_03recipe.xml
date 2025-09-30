@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-model href="relax3.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <title>Shrewsbury Cakes: Original Recipe.</title>
     <intro>This recipe comes from <recipebook>MS Codex 625</recipebook>, a manuscript recipe book
@@ -7,8 +11,8 @@
             >Edward Kidder</Owner>, who taught at a few locations in London between around 1720 and
         1734. Blank books with printed title pages seem to have been used by students to write down
         recipes they learned. Kidder also published his recipes in the printed volume, Receipts for
-        Pastry and Cookery, in 1720. <origsteps><step>Take a pound of fresh butter a pound of double
-                refind sugar sifted fine a little beaten mace</step> &amp; <step>4 eggs beat them
+        Pastry and Cookery, in 1720. <origsteps><step n="1">Take a pound of fresh butter a pound of double
+                refind sugar sifted fine a little beaten mace</step> &amp; <step n = "2">4 eggs beat them
                 all together with. your hands till tis very leight &amp; looks curdling you put
                 thereto a pound &amp; 1/2 of flower roul them out into little
             cakes</step></origsteps></intro> Our recipe (halved from the original) <inglist>
@@ -26,7 +30,7 @@
             mixture looks curdled.</step>
         <step n="3">Sift together dry ingredients and add at low speed until just combined. </step>
         <step n="4">Scoop and roll the dough by hand into 1-tbsp. balls, then pat flat.</step>
-        <step n="opt">[You could also refrigerate the dough until it’s firm enough to roll out on a
+        <step n="4">[You could also refrigerate the dough until it’s firm enough to roll out on a
             flat surface and cut out into rounds.]</step>
         <step n="5">Bake at 350F for 15-18 minutes (ours were about 1/3″ thick, so you could roll
             them thinner and have a slightly shorter cooking time).</step>

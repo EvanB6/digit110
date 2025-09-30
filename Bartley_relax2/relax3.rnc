@@ -1,20 +1,21 @@
 start = root
-root = element xml{mixed{title | intro | inglist | steplist | Results}}
+root = element root{mixed{title , intro, inglist , steplist , Results}}
 
 title = element title{text}
-intro = element intro{mixed{recipebook | chef | date | Owner}}
+intro = element intro{mixed{recipebook* & chef* & date* & Owner* & origsteps*}}
+origsteps = element origsteps{mixed{step+}}
 recipebook = element recipebook{text}
 chef = element chef{text, type}
 date = element date{text}
 type = attribute type{text}
 Owner = element Owner{text, type}
 
-inglist = element inglist{ing}
-ing = element ing{mixed{n | unit | amount | name | type? | sticks?}}
+inglist = element inglist{ing*}
+ing = element ing{n , unit , amount , name , type? ,sticks?}
 
 n = attribute n{xsd:integer}
 unit = attribute unit {text}
-amount = attribute amount{xsd:int}
+amount = attribute amount{xsd:decimal}
 name = attribute name{text}
 sticks = attribute sticks{xsd:int}
 
@@ -22,6 +23,6 @@ steplist = element steplist{mixed{ingref* | step*}}
 
 ingref = element ingref {ref,text}
 ref = attribute ref{xsd:int}
-step = element step{n, text}
+step = element step{n, mixed{ingref*}}
 
 Results = element Results{text}
