@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<title media="poem">Ozymandias
-<author>Percy Bysshe Shelley</author>
-</title>
-   <publication>
+    <header>
+        <title media="poem" name="Ozymandias">
+            <author name="Percy Bysshe Shelley"/>
+        </title>
+        <publication>
             <title media="journal">The Examiner</title>
             <pubPlace>London</pubPlace>
-            <date time = "1818-01-11">11 January 1818</date>
-        </publication> British Library 
-            <ref target="http://www.bl.uk/learning/timeline/item126940.html"/>
+            <date time="1818-01-11">11 January 1818</date>
+        </publication> British Library <ref
+            link="http://www.bl.uk/learning/timeline/item126940.html"/>
+    </header>
     <poem>
         <line n="1">I met a traveller from an antique land,</line>
         <line n="2">Who said—Two vast and trunkless legs of stone</line>
