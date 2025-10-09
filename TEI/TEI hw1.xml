@@ -6,27 +6,29 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Mary Behrend Calendar Pages</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Copyright 1908, By Friendship calendar co. new britan, conn.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Created by Mary Behrend</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <div type = "calendarPage">
-            
-            
-            
+         <div type = "calendarPage" >
+            <head><date when ="1909-03-17"></date>Wednesday St. Patrick's Day</head>
+            <p >St. Patrick was a usefuf saint he frightened all the snakes away- I wish he'd try his ark on Smoke around the hammermill some day;</p>
+            <p>red text at bottom</p><!-- i dont know how to put a color attribute -->
+
          </div>
          <div type = "calendarPage">
-            
-            
-            
+            <head><date when = "1909-03-12"></date>March 12, 1909 Friday</head>
+            <p>Molly on snowshoes that mr.weir got. Pretty picture is it not?!</p>
+            <p>signature at bottom in red</p>
+            <!-- is there a way to include images of the drawings or section to write about it?-->
          </div>
         
       </body>
