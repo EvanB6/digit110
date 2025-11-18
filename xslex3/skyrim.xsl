@@ -59,6 +59,17 @@
         
         
     </xsl:template>
+    
+    <xsl:template match = "QuestItem">
+        <span  class = "item">
+            <xsl:apply-templates/>
+            
+            
+            
+        </span>
+        
+        
+    </xsl:template>
   
 </xsl:stylesheet>
 

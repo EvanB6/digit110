@@ -19,3 +19,7 @@ span.character{
 span.location{
     color:blue;
 }
+
+span.item{
+    color: orange;
+}
